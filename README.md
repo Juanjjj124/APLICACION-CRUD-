@@ -14,7 +14,7 @@ Autenticación: JSON Web Tokens (JWT)
 Control de Versiones: Git y GitHub
 🚀 Instalación y Uso
 1️⃣ Clonar el Repositorio
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/Juanjjj124/APLICACION-CRUD-.git
 cd tu-repositorio
 2️⃣ Configurar el Backend
 Navega al directorio del backend:
