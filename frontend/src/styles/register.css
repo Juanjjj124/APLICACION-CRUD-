@@ -1,0 +1,73 @@
+/* Estilo para el formulario */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Etiquetas */
+  form label {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Entradas de texto, email y contraseña */
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Efecto al enfocar las entradas */
+  form input[type="text"]:focus,
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Estilo del checkbox */
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Botón de enviar */
+  form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto hover en el botón */
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje de error o éxito */
+  form p {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
